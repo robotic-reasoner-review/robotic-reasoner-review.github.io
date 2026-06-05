@@ -9,3 +9,4 @@ Currently ships as a minimal blank page with a title placeholder. Additional tem
 1. Edit the title in `index.html`.
 2. Add authors, abstract, sections, images, and videos as needed.
 3. Deploy via GitHub Pages (see `.github/workflows/static.yml`).
+# robotic-reasoner-review.github.io
