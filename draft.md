@@ -29,7 +29,7 @@ example 2 (job0, scene 1, trial 2): tmp/vis_vlm_qwen35_v3_1_rendered_v2/vis_L-qw
 
 ## Make a rectangle (rect)
 
-example 1 (job0, scene 1, trial 5): tmp/vis_vlm_qwen35_v3_1_rendered_v2/vis_rect-qwen35_4b-grpo_v3a_S6R3_v3_1_0524_s128tj-ent0-step680-repeat12_seed203200_0618_1217/job0_seed203200/videos/custom_make_rectangle_1_5_success.mp4
+example 1 (job0, scene 5, trial 4): tmp/vis_vlm_qwen35_v3_1_rendered_v2/vis_rect-qwen35_4b-grpo_v3a_S6R3_v3_1_0524_s128tj-ent0-step680-repeat12_seed203200_0618_1217/job0_seed203200/videos/custom_make_rectangle_5_4_success.mp4
 example 2 (job0, scene 3, trial 7): tmp/vis_vlm_qwen35_v3_1_rendered_v2/vis_rect-qwen35_4b-grpo_v3a_S6R3_v3_1_0524_s128tj-ent0-step680-repeat12_seed203200_0618_1217/job0_seed203200/videos/custom_make_rectangle_3_7_success.mp4
 
 ## Group & isolate (gris)
@@ -64,7 +64,7 @@ example 2 (job0, scene 1, trial 2): tmp/vis_vlm_qwen35_v3_1_rendered_v2/vis_iL-q
 
 ## Make a diagonal line (diag line)
 
-example 1 (job0, scene 0, trial 2): tmp/vis_vlm_qwen35_v3_1_rendered_v2/vis_dline-qwen35_4b-grpo_v3a_S6R3_v3_1_0524_s128tj-ent0-step680-repeat12_seed209600_0618_1217/job0_seed209600/videos/custom_make_diagonal_line_0_2_success.mp4
+example 1 (job0, scene 2, trial 5): tmp/vis_vlm_qwen35_v3_1_rendered_v2/vis_dline-qwen35_4b-grpo_v3a_S6R3_v3_1_0524_s128tj-ent0-step680-repeat12_seed209600_0618_1217/job0_seed209600/videos/custom_make_diagonal_line_2_5_success.mp4
 example 2 (job0, scene 1, trial 0): tmp/vis_vlm_qwen35_v3_1_rendered_v2/vis_dline-qwen35_4b-grpo_v3a_S6R3_v3_1_0524_s128tj-ent0-step680-repeat12_seed209600_0618_1217/job0_seed209600/videos/custom_make_diagonal_line_1_0_success.mp4
 
 ## Clear half (clear half)
