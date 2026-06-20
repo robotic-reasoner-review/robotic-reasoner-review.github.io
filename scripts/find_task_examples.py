@@ -27,20 +27,20 @@ NUM_EXAMPLES = 2
 
 # vis_<prefix>-... folder prefix -> draft.md section title (must match TASK_META)
 VIS_PREFIX_TO_TITLE: dict[str, str] = {
-    "group_color": "Group color",
-    "line_color": "Line color",
-    "T": "T shape",
-    "V": "V shape",
-    "L": "L shape",
-    "rect": "Rectangle",
-    "gris": "Group isolate",
-    "mid": "Midpoint",
-    "clear_quarter": "Clear quarter",
-    "iip": "Isolate in place",
-    "iV": "Inverted V",
-    "iL": "Inverted L",
-    "dline": "Diagonal line",
-    "clear_half": "Clear half",
+    "group_color": "Group blocks (group)",
+    "line_color": "Make a line (line)",
+    "T": "Make a T-shape (T)",
+    "V": "Make a V-shape (V)",
+    "L": "Make an L-shape (L)",
+    "rect": "Make a rectangle (rect)",
+    "gris": "Group & isolate (gris)",
+    "mid": "Make a midpoint (mid)",
+    "clear_quarter": "Clear quarter (clear qtr)",
+    "iip": "Isolate in place (iip)",
+    "iV": "Make an inverted V-shape (iV)",
+    "iL": "Make an inverted L-shape (iL)",
+    "dline": "Make a diagonal line (diag line)",
+    "clear_half": "Clear half (clear half)",
 }
 
 TASK_ORDER = list(VIS_PREFIX_TO_TITLE.keys())
