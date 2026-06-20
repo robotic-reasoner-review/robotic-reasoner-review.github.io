@@ -159,6 +159,23 @@ body {
   margin: 0 auto;
 }
 
+.rollout-section .rollout-row .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rollout-section .rollout-row video {
+  border-radius: 8px;
+  background: #000;
+}
+
+.rollout-section .caption {
+  margin-top: 0.5rem;
+  color: #555;
+  font-size: 0.95rem;
+}
+
 /* Reduce vertical spacing between sections */
 .section {
   padding-top: 2rem;
