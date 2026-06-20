@@ -14,7 +14,7 @@ example 2 (job0, scene 1, trial 8): tmp/vis_vlm_qwen35_v3_1_rendered_v2/vis_line
 
 ## Make a T-shape (T)
 
-example 1 (job0, scene 0, trial 6): tmp/vis_vlm_qwen35_v3_1_rendered_v2/vis_T-qwen35_4b-grpo_v3a_S6R3_v3_1_0524_s128tj-ent0-step680-repeat12_seed201600_0618_0305/job0_seed201600/videos/custom_make_T_shape_0_6_success.mp4
+example 1 (job0, scene 3, trial 10): tmp/vis_vlm_qwen35_v3_1_rendered_v2/vis_T-qwen35_4b-grpo_v3a_S6R3_v3_1_0524_s128tj-ent0-step680-repeat12_seed201600_0618_0305/job0_seed201600/videos/custom_make_T_shape_3_10_success.mp4
 example 2 (job0, scene 1, trial 3): tmp/vis_vlm_qwen35_v3_1_rendered_v2/vis_T-qwen35_4b-grpo_v3a_S6R3_v3_1_0524_s128tj-ent0-step680-repeat12_seed201600_0618_0305/job0_seed201600/videos/custom_make_T_shape_1_3_success.mp4
 
 ## Make a V-shape (V)

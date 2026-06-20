@@ -13,6 +13,7 @@ Requires ffmpeg and ffprobe on PATH.
 
 from __future__ import annotations
 
+import html
 import re
 import shutil
 import subprocess
@@ -198,6 +199,12 @@ def copy_tasks(tasks: list[tuple[str, list[str]]]) -> list[tuple[str, list[str]]
     return html_rows
 
 
+def html_title_pattern(title: str) -> str:
+    """Match title in index.html whether & is written as & or &amp;."""
+    escaped = re.escape(title)
+    return escaped.replace(r"\&", r"(?:&amp;|&)")
+
+
 def render_rollout_section(title: str, vids: list[str]) -> str:
     columns = []
     for i, vid in enumerate(vids, 1):
@@ -213,7 +220,7 @@ def render_rollout_section(title: str, vids: list[str]) -> str:
         )
     return f"""  <section class="section rollout-section">
     <div class="container">
-      <h2 class="title is-4 has-text-centered">{title}</h2>
+      <h2 class="title is-4 has-text-centered">{html.escape(title)}</h2>
       <div class="columns is-vcentered rollout-row">
 {chr(10).join(columns)}
       </div>
@@ -230,7 +237,7 @@ def update_index_html(html_rows: list[tuple[str, list[str]]]) -> None:
         pattern = (
             rf'  <section class="section rollout-section">\s*'
             rf'<div class="container">\s*'
-            rf'<h2 class="title is-4 has-text-centered">{re.escape(title)}</h2>\s*'
+            rf'<h2 class="title is-4 has-text-centered">{html_title_pattern(title)}</h2>\s*'
             rf'<div class="columns is-vcentered rollout-row">.*?</div>\s*'
             rf'</div>\s*'
             rf'</section>'
